@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1{
+    margin: 40px;
+    font-style: sans-serif, monospace;
+    text-shadow: 10px 10px 20px aqua, -10px -10px 20px aqua;
+    color: gold;
+}
+
+.table_pad_1 {
+    padding: 30px;
+    background-color: black;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 10px 20px 15px gray;
+}
+
+#table_1 {
+    background-color: black;
+    border: 2px solid;
+    border-collapse: collapse;
+    font-family: 'VT323', monospace;
+    margin: 0px auto;
+    color: white;
+    width: 95%;
+}
+
+#table_1 caption {
+    caption-side: bottom;
+    background-color: black;
+    padding-top: 20px;
+}
+
+th, td {
+    border: 2px solid;
+    padding: 5px 5px;
+    font-weight: 400;
+}
+
+td {
+    width: 250px;
+}
+
+#first_col {
+    padding: 0;
+    width: 40%;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-right-color: black;
+}
+
+#second_col {
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-right-color: black;
+}
+
+#third_col {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.table_pad_2 {
+    padding: 30px;
+    background-color: pink;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: inset 0px 100px 30px lightblue;
+}
+
+#table_2 {
+    border: 2px solid;
+    border-collapse: collapse;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px auto;
+    color: white;
+    width: 95%;
+}
+
+#table_2 caption {
+    caption-side: bottom;
+    padding-top: 20px;
+}
